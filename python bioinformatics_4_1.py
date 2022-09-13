@@ -1,0 +1,7 @@
+file = open('sequence.protein.gb','r')
+title = file.readlines()
+print("title: ",title[0])
+content = file.readlines()
+seq = content.split('ORIGIN')
+print("seq: ",seq[1])
+file.close()

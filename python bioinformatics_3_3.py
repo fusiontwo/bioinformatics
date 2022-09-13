@@ -1,0 +1,11 @@
+print("FASTA 파일의 경로를 이용하여 출력합니다.")
+file = open("E:\pycharm\DAY01\sequence.protein.fasta",'r')
+x = file.read()
+print(x)
+file.close()
+
+print("FASTA 파일의 이름을 이용하여 출력합니다.")
+file = open('sequence.protein.fasta','r')
+x = file.read()
+print(x)
+file.close()
