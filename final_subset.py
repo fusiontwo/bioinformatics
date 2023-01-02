@@ -163,9 +163,5 @@ for p1, p2 in zip(rm_repeat_integral_range,rm_repeat_integral_range[1:]):
   
 # case4: 첫 번째 region의 끝과 두 번째 region의 시작이 일치하는 경우 
 
-assemble = []
-
-# import matplotlib.pyplot as plt
-# plt.hlines(1, 3010840, 3010930, colors='gray', linestyle='solid')
 
 
