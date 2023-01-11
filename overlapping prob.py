@@ -2,8 +2,7 @@ import re
 import timeit
 
 # read file
-BlastnFile = open("C:\\Users\\심지운\\Desktop\\Hairy ear\\blastn.subset.txt", "r")
-#BlastnFile = open("C:\\Users\\심지운\Desktop\\test.txt", "r")
+BlastnFile = open("blastn.subset.txt", "r")
 
 def Hits_find():
     blast_of_read = {}
